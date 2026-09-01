@@ -1,8 +1,7 @@
 # SOC Case 09: Multi-Stage Attack Chain
 
 ## Objective
-التحقيق في هجوم على جهاز DESKTOP-R0Q45UL عبر حساب mark عن طريق عده مراحل تشمل Execution و persistence و سرقه CREDENTAIL و مسح ادله و التنقل بين الاجهزة (LATERAL MOVEMENT)
-
+Investigate an attack on host DESKTOP-R0Q45UL via the mark account, spanning multiple stages including Execution, Persistence, Credential Access, Defense Evasion, and Lateral Movement.
 ## Environment
 - Windows 10 Lab VM (VirtualBox)
 - Sysmon (custom config) forwarding to Splunk
